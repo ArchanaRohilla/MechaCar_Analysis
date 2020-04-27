@@ -1,13 +1,11 @@
-# MechaCar_Analysis
-
 # MPG Regression:
 
-- Using multiple linear regression, designed a linear model that predicts the mpg of MechaCar prototypes using a number of variables within the MechaCar mpg dataset. 
+Using multiple linear regression, designed a linear model that predicts the mpg of MechaCar prototypes using a number of variables within the MechaCar mpg dataset. 
 
- formula = mpg ~ vehicle.length + vehicle.weight + spoiler.angle + ground.clearance + AWD
- data = MechaCar_table
+formula = mpg ~ vehicle.length + vehicle.weight + spoiler.angle + ground.clearance + AWD
+data = MechaCar_table
 
- Interpretation of the multiple linear regression results:
+Interpretation of the multiple linear regression results:
 
 - Multiple linear regression equation is as follows:
   y = m1x1 + m2x2 + m3x3 + m4x4 + m5x5 + b
@@ -16,7 +14,7 @@
     (3.546e+00)ground.clearance + (-3.411e+00)AWD + (-1.040e+02)
 
 
-- According to the results;vehicle length, ground clearance and Intercept have provided a non-random amount of variance to the mpg values in the dataset.In other words the vehicle length and ground clearance have a significant    impact on the mpg. Here the intercept is statistically significant, which means there are other variables and    factors  that contribute to the variation in mpg that have not been included in this model. These variables may or may  not be  within this dataset and may still need to be collected or observed.
+- According to the results;vehicle length, ground clearance and Intercept have provided a non-random amount of  variance to the mpg values in the dataset.In other words the vehicle length and ground clearance have a significant    impact on the mpg. Here the intercept is statistically significant, which means there are other variables and    factors  that contribute to the variation in mpg that have not been included in this model. These variables may or may  not be  within this dataset and may still need to be collected or observed.
 
 - Whereas spoiler angle, AWD and vehicle weight contributes a random amount of variance to this linear model.
 
@@ -33,18 +31,20 @@
  Variance = 62.29356
  Standard deviation = 7.892627
 
-- As per the summary statistics table for the suspension coil's pounds-per-inch continuous variable, the mean and median are nearly same. Hence we can say that the dataset has a normal (symmetric) distribution and it has zero       skewness.
+- As per the summary statistics table for the suspension coil's pounds-per-inch continuous variable, the mean and  median are nearly same. Hence we can say that the dataset has a normal (symmetric) distribution and it has zero       skewness.
 
 - A high standard deviation (7.89) indicates that the data points are spread out over a large range of values.
 
-- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. As per the above statistics, the variance is about 62 pounds per inch which is below  the specified value. Hence the current manufacturing data meet this design specification.
+- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must  not exceed 100 pounds per inch. As per the above statistics, the variance is about 62 pounds per inch which is below  the specified value. Hence the current manufacturing data meet this design specification.
+
 
 
 # Suspension Coil T-Test:
 
-- In this case, the one-sample t-test has been used to assert if there is a statistical difference between the means of a sample dataset (suspension coil's pound-per-inch) and hypothesized, potential population dataset. The mean of    the  hypothesized, potential population dataset is given as 1,500 pounds per inch. 
+- In this case, the one-sample t-test has been used to assert if there is a statistical difference between the means   of a sample dataset (suspension coil's pound-per-inch) and hypothesized, potential population dataset. The mean of    the  hypothesized, potential population dataset is given as 1,500 pounds per inch. 
 
 - Assuming the significance level of 0.05 percent, the p-value (0.06028) is above our significance level. The data is considered to have normal distribution.Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
 
 
 # MechaCar Design Study:
