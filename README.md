@@ -1,5 +1,8 @@
 # MechaCar_Analysis
 
+# Software 
+R
+
 # MPG Regression:
 
 - Using multiple linear regression, designed a linear model that predicts the mpg of MechaCar prototypes using a number of variables within the MechaCar mpg dataset. 
