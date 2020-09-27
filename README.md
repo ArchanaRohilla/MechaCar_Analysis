@@ -1,7 +1,7 @@
 # MechaCar_Analysis
 
-# Software 
-R
+# Tools 
+R 
 
 # MPG Regression:
 
