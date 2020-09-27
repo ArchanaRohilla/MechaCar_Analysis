@@ -1,9 +1,12 @@
 # MechaCar_Analysis
 
-# Tools 
-R 
+# Project Overview
+In this module, you’ll apply your understanding of statistics and hypothesis testing to analyze a series of datasets from the automotive industry.
 
-# MPG Regression:
+# Tools and Techniques
+R, tidyverse, ggplot2, Statistical Tests, Hypothesis Testing, A/B Testing
+
+# MPG Regression
 
 - Using multiple linear regression, designed a linear model that predicts the mpg of MechaCar prototypes using a number of variables within the MechaCar mpg dataset. 
 
@@ -28,7 +31,7 @@ R
 - From  this linear  model, the r-squared value is 0.7149 which means that roughly 71% of all mpg predictions will be correct when using this model. So it can be stated that this linear model predicts mpg of MechaCar prototypes  effectively.
 
 
-# Suspension Coil Summary:
+# Suspension Coil Summary
 
 - As per the summary table named "summary_coil", the metrics are:
  Mean = 1498.78
@@ -43,14 +46,14 @@ R
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. As per the above statistics, the variance is about 62 pounds per inch which is below  the specified value. Hence the current manufacturing data meet this design specification.
 
 
-# Suspension Coil T-Test:
+# Suspension Coil T-Test
 
 - In this case, the one-sample t-test has been used to assert if there is a statistical difference between the means of a sample dataset (suspension coil's pound-per-inch) and hypothesized, potential population dataset. The mean of    the  hypothesized, potential population dataset is given as 1,500 pounds per inch. 
 
 - Assuming the significance level of 0.05 percent, the p-value (0.06028) is above our significance level. The data is considered to have normal distribution.Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 
 
-# MechaCar Design Study:
+# MechaCar Design Study
 
 - The metrics which would be of interest to a consumer are the fuel efficiency, cost of ownership, color options, reliability etc. By tackling these metrics wisely, MechaCar can outperforms the competition.
 
